@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uia.com.agendafx.agendafx.RecordatorioEdicionDialogoController">
+   <children>
+      <Label layoutX="62.0" layoutY="64.0" text="Tipo" />
+      <Label layoutX="62.0" layoutY="132.0" text="Nombre" />
+      <Label layoutX="62.0" layoutY="192.0" text="Fecha" />
+      <Label layoutX="62.0" layoutY="256.0" text="Fecha Recordatorio" />
+      <TextField fx:id="tipoFieldRecordatorio" layoutX="161.0" layoutY="60.0" prefHeight="26.0" prefWidth="425.0" />
+      <TextField fx:id="nombreFieldRecordatorio" layoutX="161.0" layoutY="128.0" prefHeight="26.0" prefWidth="425.0" />
+      <TextField fx:id="fechaFieldRecordatorio" layoutX="161.0" layoutY="188.0" prefHeight="26.0" prefWidth="425.0" />
+      <TextField fx:id="fechaRecordatorioFieldRecordatorio" layoutX="190.0" layoutY="252.0" prefHeight="26.0" prefWidth="398.0" />
+      <Button fx:id="okButton" layoutX="141.0" layoutY="329.0" mnemonicParsing="false" onAction="#handleOk" text="Ok" />
+      <Button layoutX="389.0" layoutY="330.0" mnemonicParsing="false" text="Cancel" />
+   </children>
+</AnchorPane>
